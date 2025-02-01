@@ -1,0 +1,46 @@
+body {
+	background: black;
+	font-family: "Trirong";
+}
+
+.postcard {
+	background-color: white;
+	width: 400px;
+	height: 370px;
+	margin: auto;
+	padding-left: 10px;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header h1 {
+	width: 300px;
+	height: 50px;
+}
+#logo {
+	width: 50px;
+	height: 50px;
+	margin-top: 20px;
+	margin-right: 0px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left,
+.body-right {
+	padding: 2px;
+}
+input {
+	border: none;
+	border-bottom: black;
+}
+.body-left p:first-child {
+	margin-top: 0px;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: red;
+	padding: 10px;
+}
